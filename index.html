@@ -3,11 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Redirecionamento para Mapa de Mosquito</title>
+<title>A dengue é contagiosa?</title>
 <style>
     body {
         font-family: Arial, sans-serif;
         text-align: center;
+        background-color: #f3f3f3;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        color: #007bff;
+    }
+    p {
+        color: #333;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
     }
     button {
         padding: 10px 20px;
@@ -26,7 +47,11 @@
 </head>
 <body>
 
-<button onclick="redirectToMap()">Ir para o Mapa de Mosquito</button>
+<div class="container">
+    <h1>A dengue é contagiosa?</h1>
+    <p>Sim, a dengue é uma doença causada por um vírus transmitido pela picada do mosquito Aedes aegypti. Portanto, é considerada uma doença contagiosa.</p>
+    <button onclick="redirectToMap()">Saiba mais sobre a dengue</button>
+</div>
 
 <script>
     function redirectToMap() {
